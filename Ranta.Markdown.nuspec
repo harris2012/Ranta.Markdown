@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ranta.Markdown</id>
+    <version>1.0.1</version>
+    <title>Ranta.Markdown</title>
+    <authors>Harris Zhang</authors>
+    <owners>Harris Zhang</owners>
+    <licenseUrl>https://github.com/ranta-library/Ranta.Markdown/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ranta-library/Ranta.Markdown</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/harriszhang14/Ranta/master/Ranta.Image/Icon/RantaIcon_150_150.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Ranta Markdown processor.</description>
+    <releaseNotes>Ranta.Markdown</releaseNotes>
+    <copyright>Copyright ranta 2016</copyright>
+    <tags>Ranta Markdown</tags>
+  </metadata>
+  <files>
+    <file src="Ranta.Markdown.Net40\bin\Release\Ranta.Markdown.dll" target="lib\net40" />
+    <file src="Ranta.Markdown.Net40\bin\Release\Ranta.Markdown.xml" target="lib\net40" />
+    <file src="Ranta.Markdown.Net45\bin\Release\Ranta.Markdown.dll" target="lib\net45" />
+    <file src="Ranta.Markdown.Net45\bin\Release\Ranta.Markdown.xml" target="lib\net45" />
+  </files>
+</package>

@@ -1,0 +1,11 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#
+    if(this.Link != null)
+    {
+#><a href="<#=this.Link.Url#>" target="_blank"><#=this.Link.Text#></a><#
+    }
+#>

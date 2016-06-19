@@ -1,0 +1,11 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#
+    if(this.Image != null)
+    {
+#><img src="<#=this.Image.Url#>" alt="<#=this.Image.Text#>" /><#
+    }
+#>
