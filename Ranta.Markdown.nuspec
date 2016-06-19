@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Ranta Markdown processor.</description>
     <releaseNotes>Ranta.Markdown</releaseNotes>
-    <copyright>Copyright ranta 2016</copyright>
+    <copyright>Copyright © Harris Zhang 2016</copyright>
     <tags>Ranta Markdown</tags>
   </metadata>
   <files>
